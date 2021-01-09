@@ -1,0 +1,26 @@
+{
+  "name": "releasetrain-forecast",
+  "version": "1.0.0",
+  "description": "Forecast software release version and date.",
+  "main": "releasetrain-forecast.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antrunner/releasetrain-forecast.git"
+  },
+  "keywords": [
+    "forecast",
+    "software",
+    "release",
+    "version",
+    "date"
+  ],
+  "author": "Solomon Berhe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antrunner/releasetrain-forecast/issues"
+  },
+  "homepage": "https://github.com/antrunner/releasetrain-forecast#readme"
+}
