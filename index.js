@@ -27,9 +27,12 @@ exports.nextReleaseDate = async function(component) {
 				year = vrd.substring(0,4); 
 				month = vrd.substring(4,6); 
 				day = vrd.substring(6,8); 
+
 				prevReleaseDates.push(new Date(year, month, day).getTime());
 			}
 		}
+
+		// console.log(prevReleaseDates)
 
 		nextReleaseMs = linear(array1.length+1,array1,prevReleaseDates);
 		nextReleaseDate = new Date(parseInt(nextReleaseMs)).toUTCString();
