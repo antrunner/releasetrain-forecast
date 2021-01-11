@@ -47,4 +47,4 @@ exports.nextReleaseDate = async function(component) {
 	}
 }
 
-this.nextReleaseDate("android").then((data) => {console.log(data)});
+// this.nextReleaseDate("android").then((data) => {console.log(data)});

@@ -2,6 +2,7 @@
 Forecast software release version date.
 
 ```javascript
+npm i releasetrain-forecast
 
 const rf = require('releasetrain-forecast');
 rf.nextReleaseDate("android").then((data) => {console.log(data)});
